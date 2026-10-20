@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#2a2219">
+<title>Guerrilla · La Grieta del Mundo</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<canvas id="c"></canvas>
+<div id="top"><div id="res"></div><div id="tb"><button data-a="idle" title="Aldeanos libres">👷</button><button data-a="army" title="Ejército">⚔</button><button data-a="sha" title="Chamanes">🔮</button><button data-a="mute" id="mu">🔊</button><button data-a="menu">☰</button></div></div>
+<div id="hud"><canvas id="mm" width="120" height="120"></canvas><div id="pi"><canvas id="pt" width="64" height="64"></canvas><div id="inf"></div></div><div id="cmd"></div></div>
+<div id="menu" hidden></div>
+<div id="intro" hidden><canvas id="ic"></canvas><p id="it"></p><button id="skip">Saltar ▸▸</button><button id="go">▶ COMENZAR</button></div>
+<script src="js/data.js"></script><script src="js/art.js"></script><script src="js/audio.js"></script><script src="js/intro.js"></script><script src="js/game.js"></script>
+<script>if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{})</script>
+</body></html>
