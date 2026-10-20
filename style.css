@@ -1,0 +1,14 @@
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;overflow:hidden;background:#14101c;color:#f0e6d2;font:15px Georgia,serif;touch-action:none;-webkit-user-select:none;user-select:none}
+canvas{display:block;width:100vw;height:100vh}
+#top{position:fixed;top:0;left:0;right:0;display:flex;flex-wrap:wrap;gap:4px 12px;padding:calc(env(safe-area-inset-top) + 6px) 10px 6px;background:rgba(20,16,28,.82);font-size:14px}
+#bot{position:fixed;bottom:0;left:0;right:0;display:flex;gap:6px;overflow-x:auto;padding:8px 8px calc(env(safe-area-inset-bottom) + 8px);background:rgba(20,16,28,.82)}
+button{font:inherit;color:inherit;background:#2c2240;border:2px solid #6b5a8e;border-radius:8px;padding:8px 12px;display:flex;flex-direction:column;align-items:center;white-space:nowrap}
+button small{font-size:11px;opacity:.8}
+button:active{background:#463568}
+#menu{position:fixed;inset:0;background:rgba(14,10,22,.96);overflow:auto;padding:calc(env(safe-area-inset-top) + 16px) 16px 24px;text-align:center}
+#menu h1{margin:0 0 6px;font-size:34px;letter-spacing:2px;color:#c46bff}
+#menu p{max-width:520px;margin:0 auto 14px;line-height:1.4}
+#civs{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;max-width:640px;margin:0 auto}
+#civs button{border-width:3px;align-items:flex-start;text-align:left;white-space:normal}
+#dif{display:flex;gap:8px;justify-content:center;margin-bottom:10px}
